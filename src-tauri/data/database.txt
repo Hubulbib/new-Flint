@@ -1,0 +1,1 @@
+{"material":[{"name":"Доска","price":"140.123","amount":"140","quantity":"1x2","stage":"Основные материалы","materialId":1},{"name":"Лист 1","price":"150","amount":"2","quantity":"24x123","stage":"component","materialId":2}],"product":[],"report":[]}

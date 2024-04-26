@@ -1,0 +1,15 @@
+.stock-page {
+    padding: 100px;
+    zoom: 0.67;
+}
+
+.stock-page__title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.stock-page__btn {
+    display: flex;
+    justify-content: flex-end;
+}

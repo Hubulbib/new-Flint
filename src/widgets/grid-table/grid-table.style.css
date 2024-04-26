@@ -1,0 +1,86 @@
+
+.gridjs.gridjs-container {
+    margin-bottom: 100px;
+}
+
+.gridjs-tr td{
+    transition: all 0.3s;
+    background-color: rgba(0, 98, 255, 1);
+    color: rgba(0, 98, 255, 0.3);
+}
+td.gridjs-td {
+    background-color: rgba(0, 98, 255, 0.3);
+}
+.gridjs-tr:hover, .gridjs-tr:hover td {
+    cursor: pointer;
+
+}
+.gridjs-tr:hover td {
+    background-color: rgba(0, 98, 255, 0.78);
+    color: white;
+}
+
+.gridjs-tr th:first-child {
+    display: none;
+}
+
+.gridjs-tr td:first-child {
+    display: none;
+}
+
+.gridjs-tbody tr, .gridjs-tr td,
+.gridjs-tr th,
+.gridjs-input .gridjs-search-input,
+.gridjs-th .gridjs-th-sort,
+.gridjs-td, .gridjs-footer {
+    background-color: rgba(0, 98, 255, 1);
+    color: rgba(0, 98, 255, 1);
+    border: none;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.gridjs-input.gridjs-search-input {
+    background-color: rgba(0, 98, 255, 1);
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.gridjs-head .gridjs-search-input::placeholder {
+    color: white;
+}
+
+.gridjs-th.gridjs-th-sort {
+    transition: all 0.3s;
+    border-bottom: 1px solid white;
+}
+th.gridjs-th-sort:focus {
+    background-color: rgba(0, 98, 255, 0.5);
+}
+th.gridjs-th-sort:hover {
+    background-color: white;
+    color: rgba(0, 98, 255, 1);
+}
+
+.gridjs-summary {
+    color: white;
+}
+
+.gridjs-th.gridjs-th-sort button{
+    background-color: white;
+}
+
+.gridjs-footer {
+    border-top: 1px solid white;
+}
+
+.gridjs-pagination .gridjs-pages button:disabled,
+.gridjs-pagination .gridjs-pages button:hover:disabled,
+.gridjs-pagination .gridjs-pages button[disabled],
+.gridjs-pagination .gridjs-pages button.gridjs-currentPage,
+.gridjs-pagination .gridjs-pages button{
+    background-color: rgba(0, 98, 255, 1);
+    color: white;
+}

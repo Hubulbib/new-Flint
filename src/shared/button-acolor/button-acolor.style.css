@@ -1,0 +1,20 @@
+.button-acolor {
+    border: 3px solid white;
+    cursor: pointer;
+    font-size: 32px;
+    padding: 15px;
+    background-color: #006944;
+    border-radius: 10px;
+    color: white;
+    transition: all 0.3s;
+}
+.button-acolor:hover {
+    border-color: rgba(0, 98, 255, 0.5);
+}
+.button-acolor:last-child {
+    background-color: #E51B41;
+}
+
+.button-acolor:disabled {
+    cursor: not-allowed;
+}

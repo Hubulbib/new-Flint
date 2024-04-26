@@ -1,0 +1,25 @@
+.modal-product__mlist {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, min-content);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+
+.modal-product__mlist > div h1 {
+    font-size: 30px;
+}
+
+.modal-product__new {
+    background-color: rgba(0, 98, 255, 0.85);
+    padding: 50px;
+    border-radius: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-product__new .input-wlabel, .modal-product__new .select-wlabel  {
+    width: 25%;
+}

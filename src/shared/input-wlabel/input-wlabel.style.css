@@ -1,0 +1,38 @@
+.input-wlabel {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.input-wlabel label, .select-wlabel label{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: white
+}
+
+.input-wlabel input {
+    width: 100%;
+    transition: all 0.3s;
+    outline: none;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 15px;
+    background-color: white;
+    border: 3px solid white;
+    color: rgba(0, 98, 255, 1);
+    border-radius: 10px;
+}
+
+.input-wlabel input::placeholder {
+    color: white;
+}
+.input-wlabel input:focus {
+    border-color: #9bc2f7;
+}
+
+.input-wlabel:last-child {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}

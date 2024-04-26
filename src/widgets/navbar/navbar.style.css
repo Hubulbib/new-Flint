@@ -1,0 +1,25 @@
+.nav-bar {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 10px 10px;
+    background-color: rgba(0, 98, 255, 0.5);
+    width: min-content;
+    min-height: 100vh;
+}
+
+.nav-bar a {
+    cursor: pointer;
+    margin-bottom: 50px;
+    padding: 10px;
+    background-color: rgba(0, 98, 255, 0.4);
+    border-radius: 20px;
+    transition: background-color 0.2s;
+}
+
+.nav-bar a:hover {
+    background-color: rgba(0, 98, 255, 0.7);
+}
+
+.nav-bar a img {
+    height: 60px;
+}
